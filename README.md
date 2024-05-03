@@ -1,4 +1,4 @@
 # IAmSlime
 Just A 2D Slime Simulation
 Here is one slime
-![](https://github.com/IAmSlime/Un Slime.gif)
+![](https://github.com/IAmSlime/Un_Slime.gif)
