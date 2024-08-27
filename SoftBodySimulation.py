@@ -147,7 +147,7 @@ class CollisionSphere:
             dots[0][mask] = self.position[0] + self.radius/dist[mask] * (dots[0][mask]-self.position[0])
             dots[1][mask] = self.position[1] + self.radius/dist[mask] * (dots[1][mask]-self.position[1])
             return dots'''
-            #method 2 resolving polynom
+            #method 2 solving polynom
             dots = slime.getDots()
             dist = np.sqrt((dots[0] - self.position[0])**2 + (dots[1] - self.position[1])**2)
             mask = dist < (self.radius)
